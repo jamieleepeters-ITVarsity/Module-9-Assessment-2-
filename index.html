@@ -12,22 +12,17 @@
 <script> 
 var timer = setInterval(displayWorldTime, 1000); 
 var cities = [ 
-{name: "Istanbul", utcOffset: 3, flag: "Turkey.png"}, 
+{name: "Capetown",utcOffset: 2, flag: "South-Africa.png"},
+{name: "Beijing", utcOffset: 8, flag: "China.png"}, 
 {name: "New York City", utcOffset: -5, flag: "United-States-of-America.png"}, 
 {name: "Tokyo", utcOffset: 9, flag: "Japan.png"}, 
-{name: "Moscow", utcOffset: 3, flag: "Russia.png"}, 
-{name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"}, 
-{name: "Sydney", utcOffset: 11, flag: "Australia.png"}, 
+{name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"},
 {name: "Vancouver", utcOffset: -8, flag: "Canada.png"}, 
-{name: "Beijing", utcOffset: 8, flag: "China.png"}, 
-{name: "London",utcOffset: 1, flag: "United-Kingdom.png"}, 
-{name: "Capetown",utcOffset: 2, flag: "South-Africa.png"}, 
-{name: "Nairobi",utcOffset: 3, flag: "Kenya.png"}, 
-{name: "Jakarta",utcOffset: 7, flag: "Indonesia.png"}, 
-{name: "Antananarivo",utcOffset: 3, flag: "Madagascar.png"}, 
+{name: "Sydney", utcOffset: 11, flag: "Australia.png"}, 
+{name: "Moscow", utcOffset: 3, flag: "Russia.png"}, 
+{name: "London",utcOffset: 1, flag: "United-Kingdom.png"},
 {name: "Victoria, Seychelles",utcOffset: 4, flag: "Seychelles.png"}, 
-{name: "Dhaka",utcOffset: 6, flag: "Bangladesh.png"}, 
-{name: "Lagos",utcOffset: 1, flag: "Nigeria.png"} 
+{name: "Jakarta",utcOffset: 7, flag: "Indonesia.png"}, 
 ]; 
 cities.sort(compare); 
 function compare(a, b){ 
@@ -77,4 +72,3 @@ document.getElementById("output").innerHTML = output;
 } 
 </script> 
 </body> 
-
